@@ -1,0 +1,30 @@
+{
+  "name": "@umm/extra_collection",
+  "version": "1.0.0",
+  "description": "Extra utility of System.Collections",
+  "homepage": "https://github.com/umm-projects/extra_collection",
+  "bugs": {
+    "url": "https://github.com/umm-projects/extra_collection/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Takuma Maruyama",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm-projects/extra_collection"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}
