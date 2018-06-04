@@ -1,0 +1,14 @@
+{
+    "name": "Tests.EditMode",
+    "references": [
+        "umm@extra_collection"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
