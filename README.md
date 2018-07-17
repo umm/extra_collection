@@ -11,7 +11,7 @@
 ## Install
 
 ```shell
-yarn add "umm-projects/extra_collection#^1.0.0"
+yarn add "umm/extra_collection#^1.0.0"
 ```
 
 ## Usage
