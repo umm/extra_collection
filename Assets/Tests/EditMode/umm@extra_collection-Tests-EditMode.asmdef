@@ -1,5 +1,5 @@
 {
-    "name": "Tests.EditMode",
+    "name": "umm@extra_collection-Tests-EditMode",
     "references": [
         "umm@extra_collection"
     ],
